@@ -1,0 +1,18 @@
+@import 'variables';
+@import 'grid';
+@import 'result-card';
+@import 'header';
+@import 'search';
+@import 'media';
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+
+}
+
+html {
+    background-color: $light-color;
+    color: $font-color;
+}

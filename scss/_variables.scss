@@ -1,0 +1,12 @@
+    // colours
+
+$light-color: #95adbe;
+$dark-color: #574f7d;
+$font-color: rgb(57, 56, 56);
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        @content;
+}

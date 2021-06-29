@@ -1,0 +1,19 @@
+@import 'variables';
+
+.result-card {
+    border: 2px solid $dark-color ;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: lighten($light-color, 4%);
+    box-shadow: 5px 5px 20px darken($dark-color, 9%);
+
+    img {
+        padding-bottom: 10px;
+    }
+
+    p {
+        max-height: 200px;
+        overflow-y: scroll;
+    }
+}
